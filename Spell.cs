@@ -8,5 +8,13 @@ namespace DndSpellbookGenerator
 {
     class Spell
     {
+        public string Name { get; set; }
+        public double Coefficient { get; set; }
+
+        public Spell(string name, double coefficient)
+        {
+            Name = name;
+            Coefficient = coefficient;
+        }
     }
 }
